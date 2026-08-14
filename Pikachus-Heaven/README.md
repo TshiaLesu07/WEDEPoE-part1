@@ -1,0 +1,292 @@
+# Pikachu's Heaven
+
+## Student Information
+
+- Student Name: Tshiamo
+- Student Number: ST10248603
+- Module: Web Development
+- Project: Portfolio of Evidence (PoE)
+- Part: Part 1 - HTML Foundation
+- Submission Date: 14 August 2026
+
+---
+
+## Project Overview
+
+Pikachu's Heaven is a fictional mini dog and cat café based in Cape Town. The website is designed to provide customers with information about the café, its menu, available spaces, reservations, online ordering, loyalty programme and contact details.
+
+The website is aimed at students, young professionals, families, pet owners and members of the general public who are interested in a comfortable café environment where they can enjoy food and drinks while spending time with friends, studying or relaxing with their pets.
+
+The website is being developed as a three-part web development project, beginning with the HTML structure in Part 1, followed by CSS styling in Part 2 and JavaScript functionality and SEO improvements in Part 3.
+
+---
+
+## Project Goals and Objectives
+
+The main goals of the Pikachu's Heaven website are to:
+
+- Create a clear and organised website structure.
+- Provide customers with useful information about the café.
+- Present the café's food and drink menu.
+- Introduce the different spaces available at the café.
+- Allow customers to make reservations.
+- Provide an online ordering option for collection.
+- Introduce the Pikachu's Heaven loyalty programme.
+- Provide contact information and café locations.
+- Create a foundation that can be styled and enhanced in later parts of the project.
+
+---
+
+## Target Audience
+
+The target audience for Pikachu's Heaven includes:
+
+- Students
+- Young professionals
+- Families
+- Pet owners
+- Café customers
+- Members of the general public
+
+The website is intended to appeal to customers looking for a comfortable and welcoming café environment that combines food, social spaces, study areas and pet-friendly facilities.
+
+---
+
+## Key Features
+
+The website currently includes:
+
+- Home page
+- Menu page
+- Spaces page
+- Reservations and Services page
+- Contact page
+- Navigation menu linking all pages
+- Coffee and hot drinks menu
+- Cold drinks menu
+- Sandwiches and wraps
+- Desserts and pastries
+- Study Zone
+- Social Zone
+- Pet-Friendly Zone
+- Kids' Zone
+- Reservation form
+- Online ordering for collection
+- Pikachu's Heaven Points loyalty programme
+- Multiple café locations
+- Embedded map
+- Contact form
+- Footer information
+
+---
+
+## Website Pages
+
+### 1. Home Page
+
+The Home page introduces Pikachu's Heaven and provides an overview of the café. It also highlights selected menu items, café spaces and special offers.
+
+### 2. Menu Page
+
+The Menu page contains the café's full food and drink menu.
+
+The menu includes:
+
+- Coffee and hot drinks
+- Cold drinks
+- Sandwiches and wraps
+- Desserts and pastries
+- Cheesecakes
+- Filled croissants
+- Muffins
+- Cinnamon rolls
+
+### 3. Spaces Page
+
+The Spaces page introduces the different areas available at Pikachu's Heaven.
+
+These include:
+
+- Study Zone
+- Social Zone
+- Pet-Friendly Zone
+- Kids' Zone
+
+### 4. Reservations & Services Page
+
+This page provides information about:
+
+- Table reservations
+- Online ordering for collection
+- Pikachu's Heaven Points loyalty programme
+
+### 5. Contact Page
+
+The Contact page provides:
+
+- General contact information
+- Café locations
+- An embedded map
+- Contact form
+
+---
+
+## Project Structure
+
+The current project contains the following HTML pages:
+
+```
+Pikachu's-Heaven/
+│
+├── index.html
+├── menu.html
+├── spaces.html
+├── services.html
+├── contact.html
+└── README.md
+```
+## Part 1 - HTML Foundation
+Part 1 focuses on establishing the HTML foundation of the Pikachu's Heaven website.
+
+The following have been implemented:
+
+HTML document structures
+Headers
+Navigation menus
+Main content areas
+Sections and articles
+Headings and paragraphs
+Forms
+Footer sections
+Internal page links
+Embedded map
+HTML comments explaining major sections
+Organised website pages
+
+CSS styling and JavaScript functionality are reserved for the later parts of the project.
+
+### Sitemap
+
+The website structure is organised as follows:
+```
+Pikachu's Heaven
+│
+├── Home
+│
+├── Menu
+│   ├── Coffee & Hot Drinks
+│   ├── Cold Drinks
+│   ├── Sandwiches & Wraps
+│   └── Desserts & Pastries
+│
+├── Spaces
+│   ├── Study Zone
+│   ├── Social Zone
+│   ├── Pet-Friendly Zone
+│   └── Kids' Zone
+│
+├── Reservations & Services
+│   ├── Reservations
+│   ├── Online Ordering
+│   └── Pikachu's Heaven Points
+│
+└── Contact
+    ├── Contact Information
+    ├── Locations
+    ├── Map
+    └── Contact Form
+```
+# Timeline and Milestones
+## Part 1 - HTML Foundation
+Project planning and proposal development
+Target audience and website goals identified
+Content research and gathering
+Website structure planned
+Five HTML pages created
+Navigation implemented
+Website content added
+Forms added
+Multiple locations and embedded map added
+HTML comments added
+Navigation links tested
+README documentation prepared
+## Part 2 - CSS Design
+
+The second stage will focus on:
+
+Website styling
+Layout
+Typography
+Colour scheme
+Visual design
+Responsive design
+User experience
+## Part 3 - JavaScript, Functionality and SEO
+
+The final stage will focus on:
+
+JavaScript functionality
+Interactive features
+Form validation
+Interactive map functionality where required
+SEO improvements
+Meta tags
+Accessibility improvements
+Alt text and other optimisation requirements
+
+# Changelog
+Version 1.0 - Part 1
+
+Created the Pikachu's Heaven website structure.
+
+Created five HTML pages.
+
+Added navigation between pages.
+
+Added home page content.
+
+Added full menu content.
+
+Added café spaces.
+
+Added reservation and online ordering sections.
+
+Added loyalty programme information.
+
+Added contact information and multiple locations.
+
+Embedded a map on the Contact page.
+
+Added contact and reservation forms.
+
+Added HTML comments.
+
+Tested website navigation.
+
+# Content Research and Sources
+
+Content and assets used for the project will be documented and referenced according to the Harvard Referencing Guide adapted for the IIE.
+
+Any external images, logos, icons, or other assets used in the website will be credited to their original sources where required.
+
+References and source information will be updated as additional content and assets are introduced during the development of the project.
+
+# Future Development
+
+The website will be expanded in Parts 2 and 3.
+
+Part 2 will focus on the visual design and responsive layout using CSS.
+
+Part 3 will focus on JavaScript functionality, interactive features, form validation, SEO and other required functionality.
+
+# Project Status
+Current Stage: Part 1 - HTML Foundation
+
+Status: HTML structure completed and undergoing final review.
+
+Student Details
+
+Name: Tshiamo Lesu
+
+Student Number: ST10248603
+Date: 14 August 2026
