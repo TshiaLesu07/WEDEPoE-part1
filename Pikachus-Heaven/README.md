@@ -6,8 +6,8 @@
 - Student Number: ST10248603
 - Module: Web Development
 - Project: Portfolio of Evidence (PoE)
-- Part: Part 1 - HTML Foundation
-- Submission Date: 14 August 2026
+- Part: Part 2 - CSS styling and responsive design 
+- Submission Date: 18 September 2026
 
 ---
 
@@ -119,6 +119,19 @@ This page provides information about:
 - Table reservations
 - Online ordering for collection
 - Pikachu's Heaven Points loyalty programme
+
+## Respnsive design evidence view 
+
+The website was tested across desktop, tablet and mobile screen size to confirm responsive behaviour
+
+### Desktop View 
+![Desktop view of homepage](screenshots/Desktop%20view.png)
+
+### Tablet View 
+![Tablet view of homepage](screenshots/Tablet%20view.png)
+
+### Mobile View 
+![Mobile view of homepage](screenshots/Mobile%20view.png)
 
 ### 5. Contact Page
 
@@ -263,6 +276,32 @@ Added HTML comments.
 
 Tested website navigation.
 
+Version 2.0 - Part 2 
+
+noted part 1 feedback regarding alt text for images - to be applies when images are added 
+
+Created and linked external stylesheet (style.css) to all five pages 
+
+Added css reset and base typography styles using releative units (rem)
+
+Established a typography hireachy for headings and body text. 
+
+Applied sitewide colour palette and custom google fonts. 
+
+Converted the navigation menu to flexbox layout,
+
+Added hover and focus states for interactive elements ( cards, buttons, form fields ) for accessibility.
+
+Implemented a responsive card-gride layout across all five pages for menu items, cafe spaces, loyalty points and contact locations. 
+
+Fixed inconsistant navigation link casing across pages. 
+
+Added a responsive design breakpoint ( max-width: 768px ) with mobile- friendly stacked navigation and adjusted heading sizes. 
+
+Added the viewport meta tag to all five pages to enable correct responsive behaviour on mobile devices. 
+
+Tested layout and navigation across desktop, tablet and mobile screen widths. 
+
 # Content Research and Sources
 
 Content and assets used for the project will be documented and referenced according to the Harvard Referencing Guide adapted for the IIE.
@@ -270,6 +309,22 @@ Content and assets used for the project will be documented and referenced accord
 Any external images, logos, icons, or other assets used in the website will be credited to their original sources where required.
 
 References and source information will be updated as additional content and assets are introduced during the development of the project.
+
+## Part 2 : content and research sources 
+
+Content and assets used for the project will be documented and referenced according to the Harvard Referencing Guide adapted for the IIE.
+
+Any external images, logos, icons, or other assets used in the website will be credited to their original sources where required.
+
+References and source information will be updated as additional content and assets are introduced during the development of the project.
+
+Google Fonts (n.d.) Playfair Display. Available at: https://fonts.google.com/specimen/Playfair+Display (Accessed: 18 September 2026).
+
+Google Fonts (n.d.) Cinzel Decorative. Available at: https://fonts.google.com/specimen/Cinzel+Decorative (Accessed: 18 September 2026).
+
+Google Fonts (n.d.) Montserrat. Available at: https://fonts.google.com/specimen/Montserrat (Accessed: 18 September 2026).
+
+W3Schools (n.d.) CSS Tutorial. Available at: https://www.w3schools.com/css/ (Accessed: 18 September 2026).
 
 # Future Development
 
@@ -280,9 +335,9 @@ Part 2 will focus on the visual design and responsive layout using CSS.
 Part 3 will focus on JavaScript functionality, interactive features, form validation, SEO and other required functionality.
 
 # Project Status
-Current Stage: Part 1 - HTML Foundation
+Current Stage: Part 2 - CSS styling structure
 
-Status: HTML structure completed and undergoing final review.
+Status: CSS styling, layout and responsive designcompleted and undergoing final review.
 
 Student Details
 
