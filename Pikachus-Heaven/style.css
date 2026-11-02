@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Montserrat:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=Playfair+Display:wght@700&family=Montserrat:wght@400;600&display=swap");
 
 h1 {
     font-family: "Cinzel Decorative", cursive;
@@ -8,11 +8,13 @@ h1 {
 h2 {
     font-family: "Playfair Display" , serif;
     text-align: center;
+    font-size: 1.4rem;
 }
 
 h3, body {
     font-family: "Montserrat", sans-serif;
     text-align: center;
+    font-size: 1.1rem;
     
 }
 
@@ -100,6 +102,7 @@ h3 {
 
 p{
     margin-bottom: 1rem;
+    font-size: 0.9 rem;
 }
 
 /* Layout structure*/
@@ -134,13 +137,14 @@ section{
 .card-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
 }
 
 .card-grid article{
 background-color: #fff;
 padding: 1.5rem;
 border-radius: 8px;
-box-shadow: 0 2px 6px rgba(0,0,0,0.8);
+box-shadow: 0 2px 6px rgba(0,0,0,0.15);
 }
 
 /* card hover effect*/
@@ -194,10 +198,10 @@ input:focus, textarea:focus{
     h1 {
         font-size: 1.75rem;
     }
+}
 
 /*part 3 additions*/
 .error{
     color: var(--hot-magenta);
     font-weight: 600;
-}
 }

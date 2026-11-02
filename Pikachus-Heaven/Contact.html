@@ -34,7 +34,7 @@
     <!-- Main content for the Contact page -->
     <main>
 
-        <section class=" contact-info">
+        <section class="contact-info">
             <!-- Contact information -->
 
             <h2>Contact Information</h2>
@@ -70,19 +70,19 @@
 
                 <form id="contact-form">
                     <label for="contact-name">Name:</label>
-                    <input type="text" id="contact-name" name = "contact-name" required>
+                    <input type="text" id="contact-name" name = "name" required>
                     <p id="contact-name-error" class ="error"></p>
 
                     <label for="contact-email">Email:</label>
-                    <input type="email" id="contact-email" name = "contact-email" required>
+                    <input type="email" id="contact-email" name = "email" required>
                     <p id="contact-email-error" class ="error"></p>
 
                     <label for="contact-phone">Phone:</label>
-                    <input type="tel" id="contact-phone" name = "Contact-phone" required>
+                    <input type="tel" id="contact-phone" name = "phone" required>
                     <p id="contact-phone-error" class ="error"></p>
 
                     <label for="contact-type">Type of message:</label>
-                    <select id="contact-type" name="Contact-type" required>
+                    <select id="contact-type" name="message_type" required>
                         <option value="">--Select an option--</option>
                         <option value="General questions">General questions</option>
                         <option value="Feedback">Feedback</option>
@@ -91,10 +91,11 @@
                     <p id="contact-type-error" class ="error"></p>
 
                     <label for="contact-message">Message:</label>
-                    <textarea id="contact-message" name="contact-message" rows="5" required></textarea>
+                    <textarea id="contact-message" name="message" rows="5" required></textarea>
                     <p id="contact-message-error" class="error"></p>
 
-                    ,<button type="submit">Send Message</button>
+                    <p id="contact-response" role="status"></p>
+                    <button type="submit">Send Message</button>
                 </form>
             </section>
 
@@ -110,41 +111,8 @@
              allowfullscreen=""
               loading="lazy">
             </iframe>
+
         </section>
-
-
-        <section>
-            <!-- Contact form -->
-            <h2>Contact Us</h2>
-
-            <form>
-
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name">
-
-                <br><br>
-
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email">
-
-                <br><br>
-
-                <label for="subject">Subject:</label>
-                <input type="text" id="subject" name="subject">
-
-                <br><br>
-
-                <label for="message">Message:</label>
-                <br>
-                <textarea id="message" name="message" rows="5" cols="30"></textarea>
-
-                <br><br>
-
-                <button type="submit">Send Message</button>
-
-            </form>
-        </section>
-
     </main>
 
     <!-- Footer -->
@@ -152,7 +120,7 @@
         <p>&copy; 2026 Pikachu's Heaven. All rights reserved.</p>
     </footer>
 
-    <script src="contact.js">8</script>
+    <script src="contact.js"></script>
 
 </body>
 

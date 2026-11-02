@@ -1,8 +1,12 @@
 /*contact form validation*/
 const contactForm = document.getElementById("contact-form");
+const contactResponse = document.getElementById ("contact-response");
+
 
 contactForm.addEventListener("submit", function(event){
     event.preventDefault();
+
+    contactResponse.textContent = "";
 
 /**name check*/
 const nameInput = document.getElementById("contact-name");
@@ -10,7 +14,7 @@ const nameError = document.getElementById("contact-name-error");
 
 
 if (nameInput.value.trim().length < 2){
-    nameError.textContent = "Please enter a name containing atleast 2 characters";
+    nameError.textContent = "Please enter a name containing at least 2 characters";
     return;
 }
 nameError.textContent = "";
@@ -44,8 +48,8 @@ phoneError.textContent = "";
 const typeInput = document.getElementById("contact-type");
 const typeError = document.getElementById("contact-type-error");
 
-if (typeInput === ""){
-    typeError.textContent = "Please Choosea type of message";
+if (typeInput.value === ""){
+    typeError.textContent = "Please Choose a type of message";
     return;
 }
 typeError.textContent = "";
@@ -61,18 +65,29 @@ if(messageLength < 10 || messageLength > 500){
 }
 messageError.textContent = "";
 
-/*compiling validated details into email*/
-const recipient = "hello@pikachusheaven.co.za" ;
-const subject = "Website message: " + typeInput.value;
-const body = 
-"Name: " + nameInput.value.trim() + "\n" +
-"Email: " + emailInput.value.trim() + "\n" +
-"Phone: " + phoneInput.value.trim() + "\n" +
-"Message type: " + typeInput.value.trim() + "\n" +
-"Message :\n "+ messageInput.value.trim(); 
+/*Submitting the form using AJAX*/
+contactResponse.textContent = "Sending your message...";
 
-window.location.href = "mailto:" + recipient + "?subject=" + encodeURIComponent(subject)
-+ "&body=" + encodeURIComponent(body);
+const formData = new FormData(contactForm);
+
+fetch("https://formspree.io/f/xoeepnvp", {
+    method: "POST",
+    body: formData,
+    headers: {
+        "Accept": "application/json"
+    }
+})
+.then(response => {
+    if (response.ok){
+        contactResponse.textContent = "Thank you ! Your message has been sent.";
+        contactForm.reset();
+    }else{
+        contactResponse.textContent = "Sorry, your message could not be sent. Please try again.";
+    }
+})
+.catch(error => {
+    contactResponse.textContent = "A network error occured. Please try again";
+})
 });
 
 

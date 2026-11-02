@@ -43,34 +43,36 @@
             </p>
 
             
-            <form>
+        <form>
 
-                <label for="reservation-name">Name:</label>
-                <input type="text" id="reservation-name" name="reservation-name">
+    <label for="reservation-name">Name:</label>
+    <input type="text" id="reservation-name" name="reservation-name" required>
 
-                <br><br>
+    <br><br>
 
-                <label for="reservation-surname">Surname:</label>
-                <input type="text" id="reservation-surname" name="reservation-surname">
+    <label for="reservation-surname">Surname:</label>
+    <input type="text" id="reservation-surname" name="reservation-surname" required>
 
-                <br><br>
+    <br><br>
 
-                <label for="reservation-date">Date:</label>
-                <input type="date" id="reservation-date" name="reservation-date">
+    <label for="reservation-date">Date:</label>
+    <input type="date" id="reservation-date" name="reservation-date" required>
 
-                <br><br>
+    <br><br>
 
-                <label for="reservation-time">Time:</label>
-                <input type="time" id="reservation-time" name="reservation-time">
+    <label for="reservation-time">Time:</label>
+    <input type="time" id="reservation-time" name="reservation-time" required>
 
-                <br><br>
+    <br><br>
 
-                <label for="number-of-people">Number of People:</label>
-                <input type="number" id="number-of-people" name="number-of-people" min="1">
+    <label for="number-of-people">Number of People:</label>
+    <input type="number" id="number-of-people" name="number-of-people" min="1" max="8" required>
 
-                <br><br>
+    <br><br>
 
-                <button type="submit">Reserve a Table</button>
+    <button type="submit">Reserve a Table</button>
+
+</form>
 
             </form>
         </section>

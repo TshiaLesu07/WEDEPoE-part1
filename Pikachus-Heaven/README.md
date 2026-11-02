@@ -6,7 +6,7 @@
 - Student Number: ST10248603
 - Module: Web Development
 - Project: Portfolio of Evidence (PoE)
-- Part: Part 2 - JvavaScript functionality, SEo and deployment
+- Part: Part 3 - JvavaScript functionality, SEo and deployment
 - Submission Date: 2 November 2026
 
 # Project links 
@@ -81,6 +81,13 @@ The website currently includes:
 - Embedded map
 - Contact form
 - Footer information
+- Enquiries page
+- JavaScript form validation
+- Dynamic enquiry responses
+- AJAX contact form submission using Formspree
+- Live menu search functionality
+- SEO title tags and meta descriptions
+- Responsive desktop, tablet and mobile layouts
 
 ---
 
@@ -153,14 +160,26 @@ The Contact page provides:
 The current project contains the following HTML pages:
 
 ```
-Pikachu's-Heaven/
+Pikachus-Heaven/
 │
 ├── index.html
-├── menu.html
-├── spaces.html
-├── services.html
-├── contact.html
-└── README.md
+├── Menu.html
+├── Spaces.html
+├── Services.html
+├── Contact.html
+├── Enquiry.html
+│
+├── style.css
+├── Script.js
+├── contact.js
+├── menu.js
+│
+├── robots.txt
+├── sitemap.xml
+├── README.md
+│
+├── images/
+└── screenshots/
 ```
 ## Part 1 - HTML Foundation
 Part 1 focuses on establishing the HTML foundation of the Pikachu's Heaven website.
@@ -282,13 +301,13 @@ Tested website navigation.
 
 Version 2.0 - Part 2 
 
-noted part 1 feedback regarding alt text for images - to be applies when images are added 
+noted part 1 feedback regarding alt text for images - to be applied when images are added 
 
 Created and linked external stylesheet (style.css) to all five pages 
 
-Added css reset and base typography styles using releative units (rem)
+Added css reset and base typography styles using relative units (rem)
 
-Established a typography hireachy for headings and body text. 
+Established a typography hierachy for headings and body text. 
 
 Applied sitewide colour palette and custom google fonts. 
 
@@ -296,11 +315,11 @@ Converted the navigation menu to flexbox layout,
 
 Added hover and focus states for interactive elements ( cards, buttons, form fields ) for accessibility.
 
-Implemented a responsive card-gride layout across all five pages for menu items, cafe spaces, loyalty points and contact locations. 
+Implemented a responsive card-grid layout across all five pages for menu items, cafe spaces, loyalty points and contact locations. 
 
-Fixed inconsistant navigation link casing across pages. 
+Fixed inconsistent navigation link casing across pages. 
 
-Added a responsive design breakpoint ( max-width: 768px ) with mobile- friendly stacked navigation and adjusted heading sizes. 
+Added a responsive design breakpoint ( max-width: 768px ) with mobile-friendly stacked navigation and adjusted heading sizes. 
 
 Added the viewport meta tag to all five pages to enable correct responsive behaviour on mobile devices. 
 
