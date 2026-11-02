@@ -9,6 +9,10 @@
 - Part: Part 2 - JvavaScript functionality, SEo and deployment
 - Submission Date: 2 November 2026
 
+# Project links 
+
+- GitHub Repository: https://github.com/TshiaLesu07/WEDEPoE-part1
+- Live Website: https://tshialesu07.github.io/WEDEPoE-part1/Pikachus-Heaven/index.html
 ---
 
 ## Project Overview
@@ -367,6 +371,10 @@ W3Schools (n.d.) CSS Tutorial. Available at: https://www.w3schools.com/css/ (Acc
 W3Schools (n.d.) JavaScript Tutorial. Available at: https://www.w3schools.com/js/ (Accessed: 2 November 2026).
 
 Pinterest (n.d.) Pet-friendly café space. Available at: https://pin.it/43BKzm9H2 (Accessed: 2 November 2026).
+
+Pinterest (n.d.) Pet-friendly café space. Available at: https://pin.it/43BKzm9H2 (Accessed: 2 November 2026).
+
+Pinterest (n.d.) Café interior photographs used on the Spaces page. Available at: https://pin.it/5GFEOpAdv (Accessed: 2 November 2026).
 
 # Future Development
 
