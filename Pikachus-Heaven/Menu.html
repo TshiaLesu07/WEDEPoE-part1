@@ -1,8 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>Pikachu's Heaven - Menu</title>
+    <meta charset="UTF-8"><!--added meta tag chaset-->
+
+    <title>Menu | Coffee, Sandwiches & Desserts | Pikachu's Heaven</title>
+    <meta name="description" content="Browse the Pikachu's Heaven menu in Cape Town: 
+    hot and cold drinks, sandwiches and wraps, cheesecakes, croissants and muffins. 
+    Search to find your favourite.">
     <link rel="stylesheet" href="style.css"> <!-- link to external stylesheet -->
 
       <!--meta tag-->
@@ -12,6 +17,7 @@
 <body>
     <header>
 
+     <img src="images/Pikachu logo.jpeg" alt="Pikachu's heaven logo"> <!--Logo added-->
     <h1>Pikachu's Heaven Menu</h1>
     <nav>
     <a href="index.html">Home</a>
@@ -19,11 +25,21 @@
     <a href="Spaces.html">Spaces</a>
     <a href="Services.html">Reservations & Services</a>
     <a href="Contact.html">Contact</a>
+    <a href="Enquiry.html">Enquiries</a>
 </nav>
     </header>
 
     <!-- div tags added for pt2 -->
     <main>
+    
+    <!--part 3 additions -->
+    <!--search box-->
+    <section>
+        <label for="menu-search">Search the menu: </label>
+        <input type="Search" id="menu-search" 
+placeholder = "e.g latte, croissant"></input>
+    </section>
+    
     <!-- Coffee and Hot Drinks -->
     <section>
         <h2>Coffee & Hot Drinks</h2>
@@ -297,6 +313,8 @@
         </div>
     </section>
 </main>
+
+<script src="menu.js"></script>
 </body>
 
 </html>

@@ -6,8 +6,8 @@
 - Student Number: ST10248603
 - Module: Web Development
 - Project: Portfolio of Evidence (PoE)
-- Part: Part 2 - CSS styling and responsive design 
-- Submission Date: 18 September 2026
+- Part: Part 2 - JvavaScript functionality, SEo and deployment
+- Submission Date: 2 November 2026
 
 ---
 
@@ -302,6 +302,44 @@ Added the viewport meta tag to all five pages to enable correct responsive behav
 
 Tested layout and navigation across desktop, tablet and mobile screen widths. 
 
+Version 2.1 - Part 2 Feedback Corrections
+
+Removed a duplicate, unused body style rule that was overriding the site's intended font (Montserrat) with an unimported font (Poppins), causing a fallback to the browser default.
+
+Fixed a typo in the --electric-yellow custom property reference that was preventing card top borders from rendering.
+
+Fixed a selector typo (image to img) that was preventing photos from being sized and cropped correctly.
+
+Removed stray spaces in two CSS property values (button padding and media query gap) that were breaking those declarations.
+
+Fixed a selector typo (removed a space before :hover) on the card hover effect so it correctly targets the whole card.
+
+Added an :active pseudo-class state to buttons, completing the hover, focus and active interaction states requested in the brief.
+
+Added the UTF-8 charset meta tag and lang="en" attribute to all pages.
+
+Corrected inconsistent navigation link casing across all pages to match actual file names exactly, preventing broken links on case-sensitive hosting.
+
+Version 3.0 - Part 3
+
+Added the logo to the header of every page.
+
+Created Enquiry.html with a form for reservation and space enquiries, and added an Enquiries link to the navigation on all pages.
+
+Added JavaScript validation (name length, email format, dropdown selection) with on-page error messages, and a dynamic response message based on the chosen enquiry type (Script.js).
+
+Added a contact form to Contact.html with validation for name, email, South African phone number, message type and message length, which compiles the details into an email to the café's address (contact.js).
+
+Added a live search filter to the menu page that hides cards that do not match the typed text (menu.js).
+
+Added a unique title tag and meta description to every page for SEO.
+
+Added robots.txt and sitemap.xml.
+
+Deployed the website on GitHub Pages.
+
+
+
 # Content Research and Sources
 
 Content and assets used for the project will be documented and referenced according to the Harvard Referencing Guide adapted for the IIE.
@@ -326,6 +364,10 @@ Google Fonts (n.d.) Montserrat. Available at: https://fonts.google.com/specimen/
 
 W3Schools (n.d.) CSS Tutorial. Available at: https://www.w3schools.com/css/ (Accessed: 18 September 2026).
 
+W3Schools (n.d.) JavaScript Tutorial. Available at: https://www.w3schools.com/js/ (Accessed: 2 November 2026).
+
+Pinterest (n.d.) Pet-friendly café space. Available at: https://pin.it/43BKzm9H2 (Accessed: 2 November 2026).
+
 # Future Development
 
 The website will be expanded in Parts 2 and 3.
@@ -335,13 +377,14 @@ Part 2 will focus on the visual design and responsive layout using CSS.
 Part 3 will focus on JavaScript functionality, interactive features, form validation, SEO and other required functionality.
 
 # Project Status
-Current Stage: Part 2 - CSS styling structure
+Current Stage: Part 3 - JavaScript functionality and SEO 
 
-Status: CSS styling, layout and responsive designcompleted and undergoing final review.
+Status: JavaScript functionality, form validation, SEO and deployment completed. 
 
 Student Details
 
 Name: Tshiamo Lesu
 
 Student Number: ST10248603
-Date: 14 August 2026
+
+Date: 2 November 2026

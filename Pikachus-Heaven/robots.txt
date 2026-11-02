@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https//tshialesu07.github.io/WEDEPoE-part1/Pikachus-Heaven/sitemap.xml

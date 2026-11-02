@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8"><!--added meta tag charset-->
+
+    <title>Make an Enquiry | Pikachu's Heaven</title>
+    <meta name="description" content="Ask Pikachu's Heaven about table reservations 
+    or our study, social and pet-friendly spaces using our quick enquiry form.">
+    
+    <link rel="stylesheet" href="style.css"> <!-- link to external stylesheet -->
+
+      <!--meta tag-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+    <!-- Main content for Enquiries -->
+    <header>
+        <img src="images/Pikachu logo.jpeg" alt="Pikachu's heaven logo"> <!--Logo added-->
+        <h1>Enquiries</h1>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="Menu.html">Menu</a>
+            <a href="Spaces.html">Spaces</a>
+            <a href="Services.html">Reservations & Services</a>
+            <a href="Contact.html">Contact</a>
+            <a href="Enquiry.html">Enquiries</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2> Make an enquiry</h2>
+            <p>Let us know what intrests you and we will be sure to get back to you
+                with all the necessary details. 
+            </p>
+             <form id="enquiry-form">
+                <label for="enquiry-name">Name: </label>
+                <input type="text" id="enquiry-name" name="enquiry-name" required>
+                
+                <!--pt 3 validations-->
+                <p id="name-error" class="error"></p>
+                <p id="email-error" class="error"></p>
+                <br><br>
+
+                <label for="enquiry-email">Email: </label>
+                <input type="email" id="enquiry-email" name="enquiry-email" required>
+
+                   <br><br>
+
+                <label for="enquiry-type"> what would you like to enquire about?</label>
+                <select id="enquiry-type" name="enquiry-type" required>
+
+                    <option value="">--Select an option--</option>
+                    <option value="reservations">Reservations</option>
+                    <option value="spaces">Spaces</option>
+
+                </select>
+                <p id="type-error" class="error"></p>
+
+                <br><br>
+
+                <button type="submit">Submit enquiry</button>
+             </form>
+        </section>
+
+        <div id="enquiry-response"></div>
+
+    </main>
+
+    <!-- footer -->
+    <footer>
+        <p>&copy; 2026 Pikachu's Heaven. All rights reserved.</p>
+    </footer>
+
+    <script src="Script.js"></script> <!--JavaScript link-->
+</body>
+
+</html>
